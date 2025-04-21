@@ -1,5 +1,5 @@
 ## Function Documentation
-
+```
 ### 1. init_session()
 **Function**: Initialize session state  
 **Input**: None  
@@ -11,7 +11,7 @@
 **Input**:  
 - `raw_data: List[Dict]` - Raw event stream JSON array  
 **Output**:  
-```python
+python
 {
   "nodes": List[Dict],  # Node list (with id/real_name/type attributes)
   "edges": List[Dict],  # Weighted edges (with source/target/time attributes)
